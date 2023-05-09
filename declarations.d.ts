@@ -30,19 +30,45 @@ declare module '*.svg' {
 	export default content;
 }
 
-declare module '@native-base/icons' {
-	export const Entypo: any;
-	export const Feather: any;
-	export const AntDesign: any;
-	export const FontAwesome: any;
-	export const Ionicons: any;
-	export const MaterialCommunityIcons: any;
-	export const EvilIcons: any;
-	export const FontAwesome5: any;
-	export const Fontisto: any;
-	export const Foundation: any;
-	export const MaterialIcons: any;
-	export const Octicons: any;
-	export const SimpleLineIcons: any;
-	export const Zocial: any;
+declare module '@native-base/icons/Entypo' {
+	export default Entypo;
+}
+declare module '@native-base/icons/Feather' {
+	export default Feather;
+}
+declare module '@native-base/icons/AntDesign' {
+	export default AntDesign;
+}
+declare module '@native-base/icons/FontAwesome' {
+	export default FontAwesome;
+}
+declare module '@native-base/icons/Ionicons' {
+	export default Ionicons;
+}
+declare module '@native-base/icons/MaterialCommunityIcons' {
+	export default MaterialCommunityIcons;
+}
+declare module '@native-base/icons/EvilIcons' {
+	export default EvilIcons;
+}
+declare module '@native-base/icons/FontAwesome5' {
+	export default FontAwesome5;
+}
+declare module '@native-base/icons/Fontisto' {
+	export default Fontisto;
+}
+declare module '@native-base/icons/Foundation' {
+	export default Foundation;
+}
+declare module '@native-base/icons/MaterialIcons' {
+	export default MaterialIcons;
+}
+declare module '@native-base/icons/Octicons' {
+	export default Octicons;
+}
+declare module '@native-base/icons/SimpleLineIcons' {
+	export default SimpleLineIcons;
+}
+declare module '@native-base/icons/Zocial' {
+	export default Zocial;
 }

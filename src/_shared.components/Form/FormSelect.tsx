@@ -1,4 +1,4 @@
-import { Entypo } from '@native-base/icons';
+import Entypo from '@native-base/icons/Entypo';
 import { ISelectProps, Icon, Select } from 'native-base';
 import React, { Children } from 'react';
 import FormBase, { FormBaseProps } from './FormBase';

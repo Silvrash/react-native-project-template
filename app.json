@@ -14,8 +14,7 @@
 		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
-			"supportsTablet": true,
-			"bundleIdentifier": "com.nyeova.react-native-project-template"
+			"supportsTablet": true
 		},
 		"android": {
 			"adaptiveIcon": {
@@ -26,6 +25,18 @@
 		"web": {
 			"favicon": "./assets/favicon.png"
 		},
-		"plugins": ["expo-build-properties"]
+		"plugins": [
+			[
+				"expo-build-properties",
+				{
+					"android": {
+						"enableProguardInReleaseBuilds": true,
+						"extraProguardRules": "-keepclassmembers class com.android.installreferrer.api.** { *; }\n-keep class com.google.android.gms.common.** {*;}\n-keep public class com.horcrux.svg.** {*;}"
+					},
+					"ios": {}
+				}
+			],
+			["expo-updates", { "username": "{{expoUserName}}" }]
+		]
 	}
 }

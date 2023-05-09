@@ -1,4 +1,4 @@
-import { Ionicons } from '@native-base/icons';
+import Ionicons from '@native-base/icons/Ionicons';
 import { Divider, Flex, Heading, Icon, IconButton, Spacer } from 'native-base';
 import React, { Children } from 'react';
 import { ConditionRenderComponent } from './ConditionRender';

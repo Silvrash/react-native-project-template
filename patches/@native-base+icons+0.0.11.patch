@@ -1,0 +1,130 @@
+diff --git a/node_modules/@native-base/icons/lib/AntDesign.js b/node_modules/@native-base/icons/lib/AntDesign.js
+new file mode 100644
+index 0000000..7e791fa
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/AntDesign.js
+@@ -0,0 +1,3 @@
++import AntDesign from "@expo/vector-icons/AntDesign";
++
++export default AntDesign
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Entypo.js b/node_modules/@native-base/icons/lib/Entypo.js
+new file mode 100644
+index 0000000..1b4aba3
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Entypo.js
+@@ -0,0 +1,3 @@
++import Entypo from "@expo/vector-icons/Entypo";
++
++export default Entypo
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/EvilIcons.js b/node_modules/@native-base/icons/lib/EvilIcons.js
+new file mode 100644
+index 0000000..b495f78
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/EvilIcons.js
+@@ -0,0 +1,3 @@
++import EvilIcons from "@expo/vector-icons/EvilIcons";
++
++export default EvilIcons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Feather.js b/node_modules/@native-base/icons/lib/Feather.js
+new file mode 100644
+index 0000000..8ff5176
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Feather.js
+@@ -0,0 +1,3 @@
++import Feather from "@expo/vector-icons/Feather";
++
++export default Feather
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/FontAwesome.js b/node_modules/@native-base/icons/lib/FontAwesome.js
+new file mode 100644
+index 0000000..55e1f38
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/FontAwesome.js
+@@ -0,0 +1,3 @@
++import FontAwesome from "@expo/vector-icons/FontAwesome";
++
++export default FontAwesome
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Fontisto.js b/node_modules/@native-base/icons/lib/Fontisto.js
+new file mode 100644
+index 0000000..998f70a
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Fontisto.js
+@@ -0,0 +1,3 @@
++import Fontisto from "@expo/vector-icons/Fontisto";
++
++export default Fontisto
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Foundation.js b/node_modules/@native-base/icons/lib/Foundation.js
+new file mode 100644
+index 0000000..c1252f9
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Foundation.js
+@@ -0,0 +1,3 @@
++import Foundation from "@expo/vector-icons/Foundation";
++
++export default Foundation
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Ionicons.js b/node_modules/@native-base/icons/lib/Ionicons.js
+new file mode 100644
+index 0000000..bbd909a
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Ionicons.js
+@@ -0,0 +1,3 @@
++import Ionicons from "@expo/vector-icons/Ionicons";
++
++export default Ionicons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/MaterialCommunityIcons.js b/node_modules/@native-base/icons/lib/MaterialCommunityIcons.js
+new file mode 100644
+index 0000000..57f064b
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/MaterialCommunityIcons.js
+@@ -0,0 +1,3 @@
++import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
++
++export default MaterialCommunityIcons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/MaterialIcons.js b/node_modules/@native-base/icons/lib/MaterialIcons.js
+new file mode 100644
+index 0000000..344330d
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/MaterialIcons.js
+@@ -0,0 +1,3 @@
++import MaterialIcons from "@expo/vector-icons/MaterialIcons";
++
++export default MaterialIcons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Octicons.js b/node_modules/@native-base/icons/lib/Octicons.js
+new file mode 100644
+index 0000000..34bec55
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Octicons.js
+@@ -0,0 +1,3 @@
++import Octicons from "@expo/vector-icons/Octicons";
++
++export default Octicons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/SimpleLineIcons.js b/node_modules/@native-base/icons/lib/SimpleLineIcons.js
+new file mode 100644
+index 0000000..338d32d
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/SimpleLineIcons.js
+@@ -0,0 +1,3 @@
++import SimpleLineIcons from "@expo/vector-icons/SimpleLineIcons";
++
++export default SimpleLineIcons
+\ No newline at end of file
+diff --git a/node_modules/@native-base/icons/lib/Zocial.js b/node_modules/@native-base/icons/lib/Zocial.js
+new file mode 100644
+index 0000000..b0cb907
+--- /dev/null
++++ b/node_modules/@native-base/icons/lib/Zocial.js
+@@ -0,0 +1,3 @@
++import Zocial from "@expo/vector-icons/Zocial";
++
++export default Zocial
+\ No newline at end of file

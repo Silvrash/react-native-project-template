@@ -1,0 +1,146 @@
+diff --git a/node_modules/@react-navigation/elements/lib/commonjs/index.js b/node_modules/@react-navigation/elements/lib/commonjs/index.js
+index 8a12bb1..57a6297 100644
+--- a/node_modules/@react-navigation/elements/lib/commonjs/index.js
++++ b/node_modules/@react-navigation/elements/lib/commonjs/index.js
+@@ -9,7 +9,7 @@ var _exportNames = {
+   getDefaultHeaderHeight: true,
+   getHeaderTitle: true,
+   Header: true,
+-  HeaderBackButton: true,
++  // HeaderBackButton: true,
+   HeaderBackContext: true,
+   HeaderBackground: true,
+   HeaderHeightContext: true,
+@@ -35,12 +35,12 @@ Object.defineProperty(exports, "Header", {
+     return _Header.default;
+   }
+ });
+-Object.defineProperty(exports, "HeaderBackButton", {
+-  enumerable: true,
+-  get: function () {
+-    return _HeaderBackButton.default;
+-  }
+-});
++// Object.defineProperty(exports, "HeaderBackButton", {
++//   enumerable: true,
++//   get: function () {
++//     return _HeaderBackButton.default;
++//   }
++// });
+ Object.defineProperty(exports, "HeaderBackContext", {
+   enumerable: true,
+   get: function () {
+@@ -123,7 +123,7 @@ var _Background = _interopRequireDefault(require("./Background"));
+ var _getDefaultHeaderHeight = _interopRequireDefault(require("./Header/getDefaultHeaderHeight"));
+ var _getHeaderTitle = _interopRequireDefault(require("./Header/getHeaderTitle"));
+ var _Header = _interopRequireDefault(require("./Header/Header"));
+-var _HeaderBackButton = _interopRequireDefault(require("./Header/HeaderBackButton"));
++// var _HeaderBackButton = _interopRequireDefault(require("./Header/HeaderBackButton"));
+ var _HeaderBackContext = _interopRequireDefault(require("./Header/HeaderBackContext"));
+ var _HeaderBackground = _interopRequireDefault(require("./Header/HeaderBackground"));
+ var _HeaderHeightContext = _interopRequireDefault(require("./Header/HeaderHeightContext"));
+diff --git a/node_modules/@react-navigation/elements/lib/module/index.js b/node_modules/@react-navigation/elements/lib/module/index.js
+index 6889e95..f14b05d 100644
+--- a/node_modules/@react-navigation/elements/lib/module/index.js
++++ b/node_modules/@react-navigation/elements/lib/module/index.js
+@@ -1,23 +1,23 @@
+ export { default as Background } from './Background';
+-export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
+-export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as Header } from './Header/Header';
+-export { default as HeaderBackButton } from './Header/HeaderBackButton';
++// export { default as HeaderBackButton } from './Header/HeaderBackButton';
+ export { default as HeaderBackContext } from './Header/HeaderBackContext';
+ export { default as HeaderBackground } from './Header/HeaderBackground';
+ export { default as HeaderHeightContext } from './Header/HeaderHeightContext';
+ export { default as HeaderShownContext } from './Header/HeaderShownContext';
+ export { default as HeaderTitle } from './Header/HeaderTitle';
++export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
++export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as useHeaderHeight } from './Header/useHeaderHeight';
+ export { default as MissingIcon } from './MissingIcon';
+ export { default as PlatformPressable } from './PlatformPressable';
+ export { default as ResourceSavingView } from './ResourceSavingView';
+ export { default as SafeAreaProviderCompat } from './SafeAreaProviderCompat';
+ export { default as Screen } from './Screen';
+-export const Assets = [
+-// eslint-disable-next-line import/no-commonjs
+-require('./assets/back-icon.png'),
+-// eslint-disable-next-line import/no-commonjs
+-require('./assets/back-icon-mask.png')];
+ export * from './types';
++// export const Assets = [
++// // eslint-disable-next-line import/no-commonjs
++// require('./assets/back-icon.png'),
++// // eslint-disable-next-line import/no-commonjs
++// require('./assets/back-icon-mask.png')];
+ //# sourceMappingURL=index.js.map
+\ No newline at end of file
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts
+index 593b236..13af765 100644
+--- a/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts
++++ b/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts
+@@ -1,19 +1,19 @@
+ export { default as Background } from './Background';
+-export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
+-export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as Header } from './Header/Header';
+-export { default as HeaderBackButton } from './Header/HeaderBackButton';
++// export { default as HeaderBackButton } from './Header/HeaderBackButton';
+ export { default as HeaderBackContext } from './Header/HeaderBackContext';
+ export { default as HeaderBackground } from './Header/HeaderBackground';
+ export { default as HeaderHeightContext } from './Header/HeaderHeightContext';
+ export { default as HeaderShownContext } from './Header/HeaderShownContext';
+ export { default as HeaderTitle } from './Header/HeaderTitle';
++export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
++export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as useHeaderHeight } from './Header/useHeaderHeight';
+ export { default as MissingIcon } from './MissingIcon';
+ export { default as PlatformPressable } from './PlatformPressable';
+ export { default as ResourceSavingView } from './ResourceSavingView';
+ export { default as SafeAreaProviderCompat } from './SafeAreaProviderCompat';
+ export { default as Screen } from './Screen';
+-export declare const Assets: any[];
+ export * from './types';
++export declare const Assets: any[];
+ //# sourceMappingURL=index.d.ts.map
+\ No newline at end of file
+diff --git a/node_modules/@react-navigation/elements/src/index.tsx b/node_modules/@react-navigation/elements/src/index.tsx
+index aa6cafc..049974a 100644
+--- a/node_modules/@react-navigation/elements/src/index.tsx
++++ b/node_modules/@react-navigation/elements/src/index.tsx
+@@ -1,25 +1,25 @@
+ export { default as Background } from './Background';
+-export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
+-export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as Header } from './Header/Header';
+-export { default as HeaderBackButton } from './Header/HeaderBackButton';
++// export { default as HeaderBackButton } from './Header/HeaderBackButton';
+ export { default as HeaderBackContext } from './Header/HeaderBackContext';
+ export { default as HeaderBackground } from './Header/HeaderBackground';
+ export { default as HeaderHeightContext } from './Header/HeaderHeightContext';
+ export { default as HeaderShownContext } from './Header/HeaderShownContext';
+ export { default as HeaderTitle } from './Header/HeaderTitle';
++export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
++export { default as getHeaderTitle } from './Header/getHeaderTitle';
+ export { default as useHeaderHeight } from './Header/useHeaderHeight';
+ export { default as MissingIcon } from './MissingIcon';
+ export { default as PlatformPressable } from './PlatformPressable';
+ export { default as ResourceSavingView } from './ResourceSavingView';
+ export { default as SafeAreaProviderCompat } from './SafeAreaProviderCompat';
+ export { default as Screen } from './Screen';
+-
++export * from './types';
+ export const Assets = [
+-  // eslint-disable-next-line import/no-commonjs
+-  require('./assets/back-icon.png'),
+-  // eslint-disable-next-line import/no-commonjs
+-  require('./assets/back-icon-mask.png'),
++  // // eslint-disable-next-line import/no-commonjs
++  // require('./assets/back-icon.png'),
++  // // eslint-disable-next-line import/no-commonjs
++  // require('./assets/back-icon-mask.png'),
+ ];
+ 
+-export * from './types';
++

@@ -1,4 +1,4 @@
-import { Entypo } from '@native-base/icons';
+import Entypo from '@native-base/icons/Entypo';
 import DateTimePicker, { IOSNativeProps } from '@react-native-community/datetimepicker';
 import dayjs from 'dayjs';
 import { Button, Icon, Modal } from 'native-base';
