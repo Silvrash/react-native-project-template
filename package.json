@@ -11,8 +11,8 @@
 		"commit": "cz",
 		"postinstall": "patch-package",
 		"expo:export": "expo export",
-		"format": "prettier --write 'src/**/*.ts?(x)'",
-		"lint": "eslint --fix 'src/**/*.ts?(x)'",
+		"format": "prettier --write .",
+		"lint": "eslint --fix .",
 		"prepare": "husky install"
 	},
 	"dependencies": {

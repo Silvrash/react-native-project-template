@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,14 +18,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -51,8 +50,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -77,27 +74,24 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 <span>
   <img src="https://github.com/Silvrash/react-native-project-template/assets/35709836/a625f93a-3266-47a8-b822-43050295b58f" alt="screenshot1" height="512">
 </span>
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-
-
 ### Built With
-* [![React][React.js]][React-url]
-* [![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)](https://reactnative.dev)
-* [![Expo](https://img.shields.io/badge/expo-1C1E24?style=plastic&logo=expo&logoColor=#D04A37)](https://docs.expo.dev)
 
-
-
+-   [![React][React.js]][React-url]
+-   [![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)](https://reactnative.dev)
+-   [![Expo](https://img.shields.io/badge/expo-1C1E24?style=plastic&logo=expo&logoColor=#D04A37)](https://docs.expo.dev)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -105,70 +99,66 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install -g eas-cli
-  ```
+
+-   npm
+    ```sh
+    npm install -g eas-cli
+    ```
 
 ### Installation
 
-
 1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
+    ```sh
+    git clone https://github.com/github_username/repo_name.git
+    ```
 2. Install NPM packages
-   ```sh
-   yarn install
-   ```
+    ```sh
+    yarn install
+    ```
 3. To start the development server
-   ```sh
-   yarn start
-   ```
-
+    ```sh
+    yarn start
+    ```
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 1. For ios build
-   ```sh
-   yarn ios
-   ```
+    ```sh
+    yarn ios
+    ```
 2. For android build
-   ```sh
-   yarn android
-   ```
+    ```sh
+    yarn android
+    ```
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the GNU General Public License. See `LICENSE` for more information.
 
-
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Benjamin Arko Afrasah - [@silvrash]([https://github.com/Silvrash]) - barkoafrasah@gmail.com
 
 Project Link: []()
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* []()
-* []()
-
-
-
+-   []()
+-   []()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=plastic
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=plastic
@@ -197,4 +187,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=plastic&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=plastic&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
