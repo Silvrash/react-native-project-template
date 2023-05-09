@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTextInput should render correctly 1`] = `
+<View
+  dataSet={{}}
+  style={
+    {
+      "minHeight": 36,
+    }
+  }
+>
+  <Text
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": undefined,
+        "color": "#4C4D6E",
+        "fontFamily": "DMSans-Bold",
+        "fontSize": 14,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "marginTop": 8,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    this label
+  </Text>
+  <View
+    dataSet={{}}
+    isFocused={false}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#d4d4d4",
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "flexDirection": "row",
+        "minHeight": 40,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TextInput
+      accessibilityRequired={true}
+      accessible={true}
+      dataSet={{}}
+      editable={true}
+      isRequired={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholderTextColor="#413f3c80"
+      required={true}
+      secureTextEntry={false}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "color": "#171717",
+          "flex": 1,
+          "fontFamily": "DMSans-Regular",
+          "fontSize": 12,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "height": "100%",
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 12,
+          "paddingTop": 8,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`FormTextInput should render with error  1`] = `
+<View
+  dataSet={{}}
+  style={
+    {
+      "minHeight": 36,
+    }
+  }
+>
+  <Text
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": undefined,
+        "color": "#4C4D6E",
+        "fontFamily": "DMSans-Bold",
+        "fontSize": 14,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "marginTop": 8,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    this label
+  </Text>
+  <View
+    dataSet={{}}
+    isFocused={false}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#d4d4d4",
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "flexDirection": "row",
+        "minHeight": 40,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TextInput
+      accessibilityRequired={true}
+      accessible={true}
+      dataSet={{}}
+      editable={true}
+      isRequired={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholderTextColor="#413f3c80"
+      required={true}
+      secureTextEntry={false}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "color": "#171717",
+          "flex": 1,
+          "fontFamily": "DMSans-Regular",
+          "fontSize": 12,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "height": "100%",
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 12,
+          "paddingTop": 8,
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="#ff0000"
+    />
+  </View>
+  <Text
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": undefined,
+        "color": "#f87171",
+        "fontFamily": "DMSans-Medium",
+        "fontSize": 12,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 18,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    error text
+  </Text>
+</View>
+`;
+
+exports[`FormTextInput should render with helper text  1`] = `
+<View
+  dataSet={{}}
+  style={
+    {
+      "minHeight": 36,
+    }
+  }
+>
+  <Text
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": undefined,
+        "color": "#4C4D6E",
+        "fontFamily": "DMSans-Bold",
+        "fontSize": 14,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "marginTop": 8,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    this label
+  </Text>
+  <Text
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": undefined,
+        "color": "#4C4D6E",
+        "fontFamily": "DMSans-Regular",
+        "fontSize": 11,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 15,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    helper text
+  </Text>
+  <View
+    dataSet={{}}
+    isFocused={false}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#d4d4d4",
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "flexDirection": "row",
+        "minHeight": 40,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TextInput
+      accessibilityRequired={true}
+      accessible={true}
+      dataSet={{}}
+      editable={true}
+      isRequired={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholderTextColor="#413f3c80"
+      required={true}
+      secureTextEntry={false}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "color": "#171717",
+          "flex": 1,
+          "fontFamily": "DMSans-Regular",
+          "fontSize": 12,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "height": "100%",
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 12,
+          "paddingTop": 8,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;

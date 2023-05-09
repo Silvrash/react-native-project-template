@@ -1,0 +1,44 @@
+diff --git a/node_modules/native-base/lib/commonjs/core/color-mode/hooks.js b/node_modules/native-base/lib/commonjs/core/color-mode/hooks.js
+index 76751c0..ae8f4bc 100644
+--- a/node_modules/native-base/lib/commonjs/core/color-mode/hooks.js
++++ b/node_modules/native-base/lib/commonjs/core/color-mode/hooks.js
+@@ -56,7 +56,7 @@ const useAppState = () => {
+         } else {
+           // React Native >= 0.65
+           // @ts-ignore:next-line ignoring ts error as devDependency contains "@types/react-native" < 0.65
+-          subsription.remove();
++          subsription?.remove();
+         }
+       };
+     }
+diff --git a/node_modules/native-base/lib/commonjs/utils/useResponsiveQuery/common.js b/node_modules/native-base/lib/commonjs/utils/useResponsiveQuery/common.js
+index ead9f23..17af2a3 100644
+--- a/node_modules/native-base/lib/commonjs/utils/useResponsiveQuery/common.js
++++ b/node_modules/native-base/lib/commonjs/utils/useResponsiveQuery/common.js
+@@ -61,6 +61,7 @@ const useDimensionsWithEnable = ({
+   const [dimensions, setDimensions] = _react.default.useState(() => _reactNative.Dimensions.get('window'));
+ 
+   _react.default.useEffect(() => {
++    let dimentionsEvent = undefined
+     if (enable) {
+       function handleChange({
+         window
+@@ -70,7 +71,7 @@ const useDimensionsWithEnable = ({
+         }
+       }
+ 
+-      _reactNative.Dimensions.addEventListener('change', handleChange); // We might have missed an update between calling `get` in render and
++      dimentionsEvent = _reactNative.Dimensions.addEventListener('change', handleChange); // We might have missed an update between calling `get` in render and
+       // `addEventListener` in this handler, so we set it here. If there was
+       // no change, React will filter out this update as a no-op.
+ 
+@@ -79,7 +80,8 @@ const useDimensionsWithEnable = ({
+         window: _reactNative.Dimensions.get('window')
+       });
+       return () => {
+-        _reactNative.Dimensions.removeEventListener('change', handleChange);
++        dimentionsEvent && dimentionsEvent()
++        // _reactNative.Dimensions.removeEventListener('change', handleChange);
+       };
+     }
+ 

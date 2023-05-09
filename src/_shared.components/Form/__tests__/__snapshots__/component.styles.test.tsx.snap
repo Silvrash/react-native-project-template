@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form components should render helper text 1`] = `
+<Text
+  dataSet={{}}
+  style={
+    {
+      "backgroundColor": undefined,
+      "color": "#4C4D6E",
+      "fontFamily": "DMSans-Regular",
+      "fontSize": 11,
+      "fontStyle": undefined,
+      "fontWeight": undefined,
+      "letterSpacing": 0,
+      "lineHeight": 15,
+      "textDecorationLine": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Form components should render helper text 2`] = `
+<Text
+  dataSet={{}}
+  style={
+    {
+      "backgroundColor": undefined,
+      "color": "#f87171",
+      "fontFamily": "DMSans-Medium",
+      "fontSize": 12,
+      "fontStyle": undefined,
+      "fontWeight": undefined,
+      "letterSpacing": 0,
+      "lineHeight": 18,
+      "textDecorationLine": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Form components should render helper text 3`] = `
+<Text
+  dataSet={{}}
+  style={
+    {
+      "backgroundColor": undefined,
+      "color": "#4C4D6E",
+      "fontFamily": "DMSans-Bold",
+      "fontSize": 14,
+      "fontStyle": undefined,
+      "fontWeight": undefined,
+      "letterSpacing": 0,
+      "lineHeight": 21,
+      "marginTop": 8,
+      "textDecorationLine": undefined,
+    }
+  }
+/>
+`;
