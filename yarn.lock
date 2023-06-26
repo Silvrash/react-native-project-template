@@ -7936,10 +7936,10 @@ metro-minify-terser@0.73.9:
   dependencies:
     terser "^5.15.0"
 
-metro-minify-terser@^0.76.3:
-  version "0.76.3"
-  resolved "https://registry.yarnpkg.com/metro-minify-terser/-/metro-minify-terser-0.76.3.tgz#2f0b95c552e064d0280ec5c46c158aea142bbb71"
-  integrity sha512-5A+vQq80j3b4ulAG99l0tIQk9CsxR4b9iUC97HQMTUndF+VvCU/eEb628wewh3s0NbADcgGtAbKOylrpyWgJjw==
+metro-minify-terser@^0.76.7:
+  version "0.76.7"
+  resolved "https://registry.yarnpkg.com/metro-minify-terser/-/metro-minify-terser-0.76.7.tgz#aefac8bb8b6b3a0fcb5ea0238623cf3e100893ff"
+  integrity sha512-FQiZGhIxCzhDwK4LxyPMLlq0Tsmla10X7BfNGlYFK0A5IsaVKNJbETyTzhpIwc+YFRT4GkFFwgo0V2N5vxO5HA==
   dependencies:
     terser "^5.15.0"
 
